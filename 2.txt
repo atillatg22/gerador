@@ -1,0 +1,37 @@
+1-
+programa
+{
+	
+	funcao inicio()
+	{
+ 
+          inteiro num,resultado
+	     
+		escreva("\nInforme o numero: ")
+		leia(num)
+
+		para (inteiro i =1;i <=10; i++){
+		      escreva(num,"**",i,"=",resultado = num*i,"\n")
+		}
+	}
+}
+
+
+2-
+
+programa
+{
+	
+	funcao inicio()
+	{
+ 
+          inteiro num,resultado
+	     
+		escreva("\nInforme o numero: ")
+		leia(num)
+
+		para (inteiro i =100;i >=0; i--){
+		      escreva(num,"**",i,"=",resultado = num*i,"\n")
+		}
+	}
+}
